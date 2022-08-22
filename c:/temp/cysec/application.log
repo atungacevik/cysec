@@ -1,0 +1,8 @@
+2022-08-08T16:50:42.275+0300 INFO Starting DemoApplication on alpertunga with PID 17763 (/home/alpertunga/IdeaProjects/cysec/target/classes started by alpertunga in /home/alpertunga/IdeaProjects/cysec)
+2022-08-08T16:50:42.276+0300 DEBUG Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2022-08-08T16:50:42.277+0300 INFO No active profile set, falling back to default profiles: default
+2022-08-08T16:50:46.183+0300 INFO Started DemoApplication in 4.291 seconds (JVM running for 5.184)
+2022-08-08T16:51:33.469+0300 INFO Starting DemoApplication on alpertunga with PID 17971 (/home/alpertunga/IdeaProjects/cysec/target/classes started by alpertunga in /home/alpertunga/IdeaProjects/cysec)
+2022-08-08T16:51:33.470+0300 DEBUG Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2022-08-08T16:51:33.471+0300 INFO No active profile set, falling back to default profiles: default
+2022-08-08T16:51:37.121+0300 INFO Started DemoApplication in 3.915 seconds (JVM running for 4.749)

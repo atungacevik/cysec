@@ -1,0 +1,57 @@
+2022-08-08 18:14:50.230 DEBUG 24467 --- [http-nio-8080-exec-5] o.s.w.s.DispatcherServlet                : POST "/api9/user/create", parameters={}
+2022-08-08 18:14:50.231 DEBUG 24467 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.lang.Object> com.hendisantika.postgres.controller.Api9ImpropperAssetsManagementController.addUser(com.hendisantika.postgres.entity.Api9User)
+2022-08-08 18:14:50.232 DEBUG 24467 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Api9User(id=null, username=atc, pin=null, tryCount=null)]
+2022-08-08 18:14:50.243 DEBUG 24467 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json]
+2022-08-08 18:14:50.243 DEBUG 24467 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Api9User(id=81536, username=atc, pin=3747, tryCount=0)]
+2022-08-08 18:14:50.245 DEBUG 24467 --- [http-nio-8080-exec-5] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2022-08-09 11:45:55.225  INFO 24467 --- [Thread-3] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-09 11:45:55.230  INFO 24467 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-09 11:45:55.234  INFO 24467 --- [Thread-3] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2022-08-09 11:45:55.262  INFO 24467 --- [Thread-3] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2022-08-09 20:10:49.869  INFO 10167 --- [main] c.h.p.DemoApplication                    : Starting DemoApplication on alpertunga with PID 10167 (/home/alpertunga/IdeaProjects/cysec/target/classes started by alpertunga in /home/alpertunga/IdeaProjects/cysec)
+2022-08-09 20:10:49.875  INFO 10167 --- [main] c.h.p.DemoApplication                    : No active profile set, falling back to default profiles: default
+2022-08-09 20:10:50.515  INFO 10167 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-08-09 20:10:50.579  INFO 10167 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61ms. Found 8 repository interfaces.
+2022-08-09 20:10:50.837  INFO 10167 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$47c2b14c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-09 20:10:51.113  INFO 10167 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2022-08-09 20:10:51.136  INFO 10167 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2022-08-09 20:10:51.137  INFO 10167 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2022-08-09 20:10:51.143  INFO 10167 --- [main] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+2022-08-09 20:10:51.219  INFO 10167 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2022-08-09 20:10:51.219 DEBUG 10167 --- [main] o.s.w.c.ContextLoader                    : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2022-08-09 20:10:51.220  INFO 10167 --- [main] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1302 ms
+2022-08-09 20:10:51.359  INFO 10167 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2022-08-09 20:10:51.572  INFO 10167 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2022-08-09 20:10:52.581  INFO 10167 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-09 20:10:53.099 DEBUG 10167 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2022-08-09 20:10:53.219  INFO 10167 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-09 20:10:53.229 DEBUG 10167 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-08-09 20:10:53.245  WARN 10167 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-09 20:10:53.284 DEBUG 10167 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 35 mappings in 'requestMappingHandlerMapping'
+2022-08-09 20:10:53.293 DEBUG 10167 --- [main] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-08-09 20:10:53.301 DEBUG 10167 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-08-09 20:10:53.449  INFO 10167 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-09 20:10:53.452  INFO 10167 --- [main] c.h.p.DemoApplication                    : Started DemoApplication in 3.96 seconds (JVM running for 4.9)
+2022-08-09 20:11:04.483  INFO 10167 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-09 20:11:04.483  INFO 10167 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2022-08-09 20:11:04.483 DEBUG 10167 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+2022-08-09 20:11:04.494 DEBUG 10167 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-08-09 20:11:04.494  INFO 10167 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 11 ms
+2022-08-09 20:11:04.501 DEBUG 10167 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : POST "/api8/user/login", parameters={}
+2022-08-09 20:11:04.506 DEBUG 10167 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.lang.Object> com.hendisantika.postgres.controller.Api8InjectionController.login(com.hendisantika.postgres.entity.User)
+2022-08-09 20:11:04.559 DEBUG 10167 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [User(id=null, username=atc, name=null, course=null, pass=alper, authToken=null)]
+2022-08-09 20:11:04.631 DEBUG 10167 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json]
+2022-08-09 20:11:04.637 DEBUG 10167 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[]]
+2022-08-09 20:11:04.646 DEBUG 10167 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2022-08-09 20:11:15.114 DEBUG 10167 --- [http-nio-8080-exec-3] o.s.w.s.DispatcherServlet                : POST "/api8/user/login", parameters={}
+2022-08-09 20:11:15.114 DEBUG 10167 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.lang.Object> com.hendisantika.postgres.controller.Api8InjectionController.login(com.hendisantika.postgres.entity.User)
+2022-08-09 20:11:15.115 DEBUG 10167 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [User(id=null, username=atc' or 1=1--, name=null, course=null, pass=alper, authToken=null)]
+2022-08-09 20:11:15.126 DEBUG 10167 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json]
+2022-08-09 20:11:15.127 DEBUG 10167 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[[Ljava.lang.Object;@7a946842, [Ljava.lang.Object;@5f1c43f5]]
+2022-08-09 20:11:15.143 DEBUG 10167 --- [http-nio-8080-exec-3] o.s.w.s.DispatcherServlet                : Completed 200 OK
+2022-08-09 20:15:03.152 DEBUG 10167 --- [http-nio-8080-exec-6] o.s.w.s.DispatcherServlet                : POST "/api8/user/login", parameters={}
+2022-08-09 20:15:03.153 DEBUG 10167 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.lang.Object> com.hendisantika.postgres.controller.Api8InjectionController.login(com.hendisantika.postgres.entity.User)
+2022-08-09 20:15:03.154 DEBUG 10167 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [User(id=null, username=atc, name=null, course=null, pass=atc, authToken=null)]
+2022-08-09 20:15:03.156 DEBUG 10167 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json]
+2022-08-09 20:15:03.156 DEBUG 10167 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[[Ljava.lang.Object;@4981555e]]
+2022-08-09 20:15:03.157 DEBUG 10167 --- [http-nio-8080-exec-6] o.s.w.s.DispatcherServlet                : Completed 200 OK
